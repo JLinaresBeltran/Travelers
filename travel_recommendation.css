@@ -1,0 +1,117 @@
+/* Basic CSS for the navigation bar */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+nav {
+    background-color: #100f0f;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+  }
+  
+  nav ul {
+    list-style-type: none;
+    /* padding: 0; */
+  }
+
+  nav input {
+    border-radius: 20px;
+  }
+  
+  nav ul li {
+    display: inline;
+    margin-right: 10px;
+  }
+  
+  nav a {
+    text-decoration: none;
+    color: #f9f6f6;
+    font-weight: bold;
+  }
+  
+  /* Basic CSS for the form elements */
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #02ddfa;
+    background-image: url('https://a.travel-assets.com/findyours-php/viewfinder/images/res70/63000/63112-Bogota.jpg');
+    background-size: cover;           /* Ajusta la imagen para que cubra todo el fondo */
+    background-repeat: no-repeat;     /* Evita que la imagen se repita */
+    background-position: center center; /* Centra la imagen en la pantalla */
+    /* margin: 20px; */
+}
+  
+  h1 {
+    margin-bottom: 20px;
+    color: #f9f6f6;
+  }
+  
+  div {
+    margin-bottom: 10px;
+  }
+  
+  label {
+    display: inline-block;
+    width: 100px;
+  }
+
+  div h2 {
+    padding: 50px;
+    font-size: 50px;
+    color: #f9f6f6;
+  }
+
+  div p {
+    padding: 50px;
+    padding-left: 50px;
+    padding-right: 600px;
+    justify-content: left;
+    color: #f9f6f6;
+
+  }
+  
+  input[type="text"],
+  input[type="number"],
+  select {
+    width: 200px;
+    padding: 5px;
+  }
+  
+  button {
+    padding: 7px 15px;
+    background-color: #02ddfa;
+    color: white;
+    border-radius: 20px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #02ddfa;
+  }
+  
+  /* Basic CSS for the report section */
+  h2 {
+    margin-top: 30px;
+  }
+  
+  #report,#result {
+    padding: 10px;
+    max-width: 400px;
+    word-wrap: break-word;
+  }
+#result{
+  height: 400px;
+  width: 500px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-direction: column;
+}
+  #result img{
+    width: 200px;
+    height: 100px;
+  }
