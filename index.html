@@ -1,29 +1,32 @@
 <!DOCTYPE html>
 <html lang="es">
+<head>
     <meta charset="UTF-8">
-    <head>
-        <title>Tarvelers</title>
-        <link rel="stylesheet" href="./travel_recommendation.css">
-    </head>
-    
-    <body class="home-page">
-        <nav><h1>Paradise Travelers</h1>
-            <ul>
-                <li><a href="./index.html" id="home">Inicio </a></li>
-                <li><a href="./about.html" id="about">Nosotros </a></li>
-                <li><a href="./health_contact.html" id="contact">Contáctanos </a></li>
-                <li><input type="text" id="conditionInput" placeholder="Buscar recomendaciones">
-                <button id='btnSearch'>Buscar</button> 
-                <button id='btnReset'>Restablecer</button>
-                </li>
-            </ul>
-        </nav>
-        <div>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Travelers</title>
+    <link rel="stylesheet" href="./travel_recommendation.css">
+    <script src="./travel_recommendation.js" defer></script>
+</head>
+<body class="home-page">
+    <nav>
+        <h1>Paradise Travelers</h1>
+        <ul>
+            <li><a href="./index.html" id="home">Inicio</a></li>
+            <li><a href="./about.html" id="about">Nosotros</a></li>
+            <li><a href="./health_contact.html" id="contact">Contáctanos</a></li>
+            <li>
+                <input type="text" id="conditionInput" placeholder="Buscar recomendaciones">
+                <button id="btnSearch">Buscar</button>
+                <button id="btnReset">Restablecer</button>
+            </li>
+        </ul>
+    </nav>
+    <div>
         <h2>ATRÉVETE A <br> EXPLORAR <br> EL MUNDO</h2>
-        </div>
-        <div>
-            <p>Atrévete a explorar el mundo y abre las puertas a un universo de posibilidades ilimitadas. Cada rincón del planeta guarda secretos, historias y paisajes que esperan ser descubiertos por tu espíritu aventurero.</p>
-        </div>
-        
-    </body>
+    </div>
+    <div>
+        <p>Atrévete a explorar el mundo y abre las puertas a un universo de posibilidades ilimitadas.</p>
+    </div>
+    <div id="results-container" class="results-container"></div>
+</body>
 </html>

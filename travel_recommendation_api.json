@@ -6,12 +6,12 @@
       "cities": [
         {
           "name": "Sydney, Australia",
-          "imageUrl": "enter_your_image_for_sydney.jpg",
+          "imageUrl": "https://content.r9cdn.net/rimg/dimg/12/98/b1e36771-city-2258-163f4d7f814.jpg?crop=true&width=1020&height=498",
           "description": "A vibrant city known for its iconic landmarks like the Sydney Opera House and Sydney Harbour Bridge."
         },
         {
           "name": "Melbourne, Australia",
-          "imageUrl": "enter_your_image_for_melbourne.jpg",
+          "imageUrl": "https://businessevents.australia.com/content/businessevents/en/destinations/melbourne/_jcr_content/hero/desktop.adapt.1920.high.jpg",
           "description": "A cultural hub famous for its art, food, and diverse neighborhoods."
         }
       ]
@@ -27,7 +27,7 @@
         },
         {
           "name": "Kyoto, Japan",
-          "imageUrl": "enter_your_image_for_kyoto.jpg",
+          "imageUrl": "https://dam.ngenespanol.com/wp-content/uploads/2021/04/GettyImages-1208124099.jpg",
           "description": "Known for its historic temples, gardens, and traditional tea houses."
         }
       ]
@@ -38,12 +38,12 @@
       "cities": [
         {
           "name": "Rio de Janeiro, Brazil",
-          "imageUrl": "enter_your_image_for_rio.jpg",
+          "imageUrl": "https://visitbrasil.com/wp-content/uploads/2024/01/destination-thumbnail.jpg",
           "description": "A lively city known for its stunning beaches, vibrant carnival celebrations, and iconic landmarks."
         },
         {
           "name": "São Paulo, Brazil",
-          "imageUrl": "enter_your_image_for_sao-paulo.jpg",
+          "imageUrl": "https://visitbrasil.com/wp-content/uploads/2024/01/foto-rj-sem-ceu2.png",
           "description": "The financial hub with diverse culture, arts, and a vibrant nightlife."
         }
       ]
@@ -53,13 +53,13 @@
     {
       "id": 1,
       "name": "Angkor Wat, Cambodia",
-      "imageUrl": "enter_your_image_for_angkor-wat.jpg",
+      "imageUrl": "https://framerusercontent.com/images/92z5IEWZJ3NohjWQt8rRw7005Ss.jpg?lossless=1",
       "description": "A UNESCO World Heritage site and the largest religious monument in the world."
     },
     {
       "id": 2,
       "name": "Taj Mahal, India",
-      "imageUrl": "enter_your_image_for_taj-mahal.jpg",
+      "imageUrl": "https://www.istockphoto.com/es/foto/taj-mahal-agra-india-monumento-de-amor-en-cielo-azul-gm519330110-90468399",
       "description": "An iconic symbol of love and a masterpiece of Mughal architecture."
     }
   ],
@@ -67,13 +67,13 @@
     {
       "id": 1,
       "name": "Bora Bora, French Polynesia",
-      "imageUrl": "enter_your_image_for_bora-bora.jpg",
+      "imageUrl": "https://cache.marriott.com/is/image/marriotts7prod/xr-bobxr-overview-overwater-villa--23952:Feature-Hor?wid=1920&fit=constrain",
       "description": "An island known for its stunning turquoise waters and luxurious overwater bungalows."
     },
     {
       "id": 2,
       "name": "Copacabana Beach, Brazil",
-      "imageUrl": "enter_your_image_for_copacabana.jpg",
+      "imageUrl": "https://perderelrumbo.com/wp-content/uploads/2023/08/Copacabana-Bolivia-un-tesoro-a-orillas-del-titicaca_.jpg",
       "description": "A famous beach in Rio de Janeiro, Brazil, with a vibrant atmosphere and scenic views."
     }
   ]
