@@ -35,7 +35,7 @@ nav {
   }
   
   /* Basic CSS for the form elements */
-  body {
+  .home-page {
     font-family: Arial, sans-serif;
     background-color: #02ddfa;
     background-image: url('https://a.travel-assets.com/findyours-php/viewfinder/images/res70/63000/63112-Bogota.jpg');
@@ -115,3 +115,126 @@ nav {
     width: 200px;
     height: 100px;
   }
+
+  .about-page {
+    font-family: Arial, sans-serif;
+    background-color: #02ddfa;
+    background-image: url('https://colombiatours.travel/wp-content/uploads/2018/12/medellin.jpg');
+    background-size: cover;           /* Ajusta la imagen para que cubra todo el fondo */
+    background-repeat: no-repeat;     /* Evita que la imagen se repita */
+    background-position: center center; /* Centra la imagen en la pantalla */
+  }
+
+  /* Contenedor de las columnas */
+.columns-container {
+    display: flex;
+    justify-content: space-between; /* Espacio uniforme entre las columnas */
+    align-items: flex-start; /* Alinea las columnas al inicio verticalmente */
+    gap: 20px; /* Espaciado entre columnas */
+}
+
+/* Cada columna */
+.column {
+    flex: 1; /* Cada columna ocupa la misma cantidad de espacio */
+    max-width: 22%; /* Limita el ancho máximo de cada columna */
+}
+
+/* Estilo de los cuadros */
+.box {
+    background-color: #ffffff20;
+    border: 1px solid #cccccc;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+/* Título dentro del cuadro */
+.box h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+    color: #fffdfd;
+}
+
+/* Párrafo dentro del cuadro */
+.box p {
+    font-size: 16px;
+    line-height: 1.5; /* Espaciado entre líneas */
+    color: #ffffff;
+}
+
+body.contact-page {
+    font-family: Arial, sans-serif;
+    background-image: url('https://images.pexels.com/photos/2749481/pexels-photo-2749481.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1'); /* Imagen de fondo */
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Sección del formulario */
+.contact-page .form-section {
+    width: 100%;
+    max-width: 400px;
+    padding: 20px;
+    backdrop-filter: blur(10px); /* Efecto de desenfoque */
+    background-color: rgba(255, 255, 255, 0.2); /* Fondo transparente */
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Formulario */
+.contact-page .transparent-form h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 24px;
+    color: #fff;
+}
+
+.contact-page .transparent-form .form-group {
+    margin-bottom: 15px;
+}
+
+.contact-page .transparent-form label {
+    display: block;
+    margin-bottom: 5px;
+    font-size: 14px;
+    color: #fff;
+}
+
+.contact-page .transparent-form input,
+.contact-page .transparent-form textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 16px;
+    background-color: rgba(255, 255, 255, 0.5); /* Fondo semi-transparente */
+    color: #333;
+    outline: none;
+}
+
+.contact-page .transparent-form input:focus,
+.contact-page .transparent-form textarea:focus {
+    border-color: #02ddfa;
+    background-color: rgba(255, 255, 255, 0.8);
+}
+
+/* Botón de enviar */
+.contact-page .transparent-form button {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #02ddfa;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.contact-page .transparent-form button:hover {
+    background-color: #0288d1;
+}
